@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    color: beige;
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    width: 30%;
+    padding: 0px 30px;
+}
+
+.container a {
+    text-decoration: none;
+    color: beige;
+}
+
+.container a:focus-visible {
+    outline: none;
+}
+
+.container h1 {
+    font-family: "Kalam", cursive;
+    font-size: 2.7rem;
+    border-bottom: 3px solid beige;
+    margin: auto;
+    margin-bottom: 35px;
+    padding: 0px 5px;
+    width: 35%;
+    text-align: center;
+}
+
+.box {
+    width: 83%;
+    margin: 25px auto;
+    border-bottom: 2px solid beige;
+}
+
+.box i {
+    padding: 5px;
+}
+
+.box input {
+    background: none;
+    color: white;
+    border: none;
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    outline: none;
+    font-size: 17px;
+    margin: 5px auto;
+    padding: 2px 8px;
+}
+
+.box input::placeholder {
+    color: blanchedalmond;
+    opacity: 0.75;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    margin: 12px auto;
+    display: block;
+    padding: 7px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    border: none;
+    background-color: #f9ecbaba;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #fdedabcf;
+    font-weight: bold;
+}
